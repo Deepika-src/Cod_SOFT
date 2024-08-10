@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  background-color: #d4f1f4;
+}
+
+.button{
+  width: 66px;
+  height: 55px;
+  padding: 20px;
+  margin: 0 3px;
+  border: none;
+  color: #189ab4;
+  font-size: 20px;
+  background-color: #ecf0f3;
+  box-shadow: -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.14);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.row{
+  margin: 8px 0;
+}
+
+.row input{
+    grid-column: span 4;
+    width: 300px;
+    height: 50px;
+    background-color: #ecf0f3;
+    color: #189ab4;
+    border: none;
+    box-shadow: inset -5px -5px 12px #d4f1f4, inset 5px 5px 12px rgba(0, 0, 0, 0.14);
+    border-radius: 30px;
+    outline: none;
+    font-size: 40px;
+    text-align: end;
+    margin: 20px auto;
+    padding: 12px;
+}
+
+.text-center{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #189ab4;
+  }
+  
+  .bg-red{
+    background: red;
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
