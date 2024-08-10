@@ -27,23 +27,3 @@ Array.from(buttons).forEach((button)=>{
     }
   })
 });
-
-// function updateDisplay(value){
-//     document.getElementById("display").value = value;
-// }
-
-// document.getElementById("memoryAdd")
-// .addEventListener("click",function(){
-//     memory += parseFloat(displayValue);
-//     console.log("Memory:", memory);
-// });
-
-// document.getElementById("memorySubtract").addEventListener("click", function(){
-//     memory -= parseFloat(displayValue);
-//     console.log("Memory:", memory);
-// });
-
-// function handleInput(value){
-//     displayValue = value;
-//     updateDisplay (displayValue);
-// }
